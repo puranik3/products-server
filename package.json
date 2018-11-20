@@ -1,0 +1,15 @@
+{
+  "name": "product-catalog",
+  "version": "1.0.0",
+  "description": "json-server based server to serve details of products in a catalog",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "node server-not-authenticated.js",
+    "json:server:authenticated": "node server-authenticated.js"
+  },
+  "author": "Prashanth Puranik",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}
