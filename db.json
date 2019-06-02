@@ -188,51 +188,6 @@
       "id": 15
     },
     {
-      "reviewer": "ASCasc",
-      "starRating": "3",
-      "title": "sczc",
-      "text": "scsA",
-      "createdDate": "Dec 22, 2017",
-      "productId": "2",
-      "id": 16
-    },
-    {
-      "reviewer": "John",
-      "starRating": "5",
-      "title": "Excellent",
-      "text": "Excellent",
-      "createdDate": "Dec 22, 2017",
-      "productId": "[object Object]",
-      "id": 17
-    },
-    {
-      "reviewer": "John",
-      "starRating": "4",
-      "title": "jk",
-      "text": "jhkj",
-      "createdDate": "Dec 22, 2017",
-      "productId": "[object Object]",
-      "id": 18
-    },
-    {
-      "reviewer": "kjbkjb",
-      "starRating": "4",
-      "title": "jhvh",
-      "text": "jbjh",
-      "createdDate": "Dec 22, 2017",
-      "productId": "2",
-      "id": 19
-    },
-    {
-      "reviewer": "Anil;",
-      "starRating": "3",
-      "title": "kn",
-      "text": "klnlk",
-      "createdDate": "Dec 22, 2017",
-      "productId": "2",
-      "id": 20
-    },
-    {
       "reviewer": "John Doe",
       "starRating": "3",
       "title": "Not good, not bad",
@@ -245,7 +200,7 @@
   "feedback": [
     {
       "email": "john.doe@example.com",
-      "feedback": "Great first app in Angular. Keep going!",
+      "feedback": "Great first app. Keep going!",
       "createdDate": "Dec 18, 2017",
       "id": 1
     }
