@@ -148,7 +148,7 @@
       "starRating": 5,
       "title": "Excellent product",
       "text": "Velit anim dolor consectetur qui esse Lorem aliqua id non. Deserunt elit cupidatat nisi id mollit ut fugiat labore eiusmod enim exercitation. Dolor est commodo aliquip enim ad anim dolore minim est veniam velit cupidatat commodo cupidatat. Ea laborum velit laboris dolor dolore eu dolor. Irure consectetur nulla nulla incididunt fugiat.",
-      "productId": "3",
+      "productId": 3,
       "id": 11
     },
     {
@@ -157,7 +157,7 @@
       "title": "Excellent",
       "text": "Great product. Have been using this for 2 years now. No issues at all.",
       "createdDate": "Nov 28, 2017",
-      "productId": "2",
+      "productId": 2,
       "id": 12
     },
     {
@@ -166,7 +166,7 @@
       "title": "Awesome build quality",
       "text": "I have been using for over 3 years and it is as good as new.",
       "createdDate": "Dec 16, 2017",
-      "productId": "2",
+      "productId": 2,
       "id": 13
     },
     {
@@ -175,12 +175,12 @@
       "title": "Awesome",
       "text": "Cuts everything from paper to wood to metal",
       "createdDate": "Dec 17, 2017",
-      "productId": "4",
+      "productId": 4,
       "id": 14
     },
     {
       "reviewer": "James Johnson",
-      "productId": "3",
+      "productId": 3,
       "starRating": 3,
       "title": "Broke in first use",
       "text": "Pariatur consequat pariatur aliqua Lorem laborum commodo incididunt deserunt magna magna labore laborum. Veniam elit laborum dolor incididunt sit sit deserunt. Ex cillum deserunt in laboris sint irure amet pariatur labore laboris excepteur mollit laborum voluptate.",
@@ -193,7 +193,7 @@
       "title": "Not good, not bad",
       "text": "Cut the grass fine, but left shreds on the lawn",
       "createdDate": "Jul 07, 2018",
-      "productId": "1",
+      "productId": 1,
       "id": 21
     }
   ],
