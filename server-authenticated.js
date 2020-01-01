@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults();
 
 const jwt = require('./services/jwt');
 
-const port = process.env.PORT || 4201;
+const port = process.env.PORT || 8001;
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);

@@ -4,8 +4,9 @@
   "description": "json-server based server to serve details of products in a catalog",
   "main": "index.js",
   "scripts": {
-    "json:server": "node server-not-authenticated.js",
-    "json:server:authenticated": "node server-authenticated.js"
+    "start": "npm run noauth",
+    "noauth": "node server-not-authenticated.js",
+    "auth": "node server-authenticated.js"
   },
   "author": "Prashanth Puranik",
   "license": "ISC",
