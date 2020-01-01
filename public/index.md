@@ -11,17 +11,17 @@ __Note__:
 ---
 
 ## Accessing the server online
-You can [access the server at the following URL](https://store-server.herokuapp.com).  
+You can [access the server at the following URL](https://awesome-store-server.herokuapp.com).  
 
-To get started, you can [view all producuts here](https://store-server.herokuapp.com/products), and [all reviews here](https://store-server.herokuapp.com/reviews).
+To get started, you can [view all producuts here](https://awesome-store-server.herokuapp.com/products), and [all reviews here](https://awesome-store-server.herokuapp.com/reviews).
 
 ---
 
 ## Starting the server locally
 Assuming you have Node.js installed on your system,
-1. Navigate to the store-server folder in the command line/terminal. For example, if you are on a folder which has the store-server/ folder, then
+1. Navigate to the awesome-store-server folder in the command line/terminal. For example, if you are on a folder which has the awesome-store-server/ folder, then
 ```
-$> cd store-server
+$> cd awesome-store-server
 ```
 2. Install required dependencies by running the following command
 ```
@@ -33,7 +33,7 @@ $> npm start
 ```
 __Note__:
 * $> is the command prompt. DO NOT type it out!
-* The server can also be started in authenticated mode. In this mode, an authentication token must first be obtained by POSTing to the https://store-server.herokuapp.com/login API, the following object.
+* The server can also be started in authenticated mode. In this mode, an authentication token must first be obtained by POSTing to the https://awesome-store-server.herokuapp.com/login API, the following object.
 ```
 {
     "email": "john.doe@example.com",
@@ -49,35 +49,35 @@ No other credentials are supported by the server.
 
 ## Products - View all
 ```
-GET https://store-server.herokuapp.com/products
+GET https://awesome-store-server.herokuapp.com/products
 ```
 
 ## Products - View a page (with maximum 10 entries)
 ```
-GET https://store-server.herokuapp.com/products?_page=<page_id>
+GET https://awesome-store-server.herokuapp.com/products?_page=<page_id>
 ```
 For example, to view the second page
 ```
-GET https://store-server.herokuapp.com/products?_page=2
+GET https://awesome-store-server.herokuapp.com/products?_page=2
 ```
 
 ## Products - View reviews for a product
 ```
-GET https://store-server.herokuapp.com/products/<product_id>/reviews
+GET https://awesome-store-server.herokuapp.com/products/<product_id>/reviews
 ```
 For example, to view reviews of product with id = 2
 ```
-GET https://store-server.herokuapp.com/products/2/reviews
+GET https://awesome-store-server.herokuapp.com/products/2/reviews
 ```
 
 ## Reviews - View all reviews
 ```
-GET https://store-server.herokuapp.com/reviews
+GET https://awesome-store-server.herokuapp.com/reviews
 ```
 
 ## Add a new product
 ```
-POST https://store-server.herokuapp.com/products
+POST https://awesome-store-server.herokuapp.com/products
 ```
 The JSON data that must be sent is shown in below sample (modify the data as per your needs). DO NOT specify the id for the product. The response will have the same object with the automatically generated id for the product.
 ```
@@ -94,7 +94,7 @@ The JSON data that must be sent is shown in below sample (modify the data as per
 
 ## Add a new review
 ```
-POST https://store-server.herokuapp.com/reviews
+POST https://awesome-store-server.herokuapp.com/reviews
 ```
 The JSON data that must be sent is shown in below sample (modify the data as per your needs). Specify the productId and set it to the id of the product for which this is a review. DO NOT specify the id for the review. The response will have the same object with the automatically generated id for the review.
 ```

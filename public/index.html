@@ -398,15 +398,15 @@ blockquote {
 </ul>
 <hr>
 <h2>Accessing the server online</h2>
-<p>You can <a href="https://store-server.herokuapp.com">access the server at the following URL</a>.</p>
-<p>To get started, you can <a href="https://store-server.herokuapp.com/products">view all products here</a>, and <a href="https://store-server.herokuapp.com/reviews">all reviews here</a>.</p>
+<p>You can <a href="https://awesome-store-server.herokuapp.com">access the server at the following URL</a>.</p>
+<p>To get started, you can <a href="https://awesome-store-server.herokuapp.com/products">view all products here</a>, and <a href="https://awesome-store-server.herokuapp.com/reviews">all reviews here</a>.</p>
 <hr>
 <h2>Starting the server locally</h2>
 <p>Assuming you have Node.js installed on your system,</p>
 <ol>
-<li>Navigate to the store-server folder in the command line/terminal. For example, if you are on a folder which has the store-server/ folder, then</li>
+<li>Navigate to the awesome-store-server folder in the command line/terminal. For example, if you are on a folder which has the awesome-store-server/ folder, then</li>
 </ol>
-<pre><code>$&gt; cd store-server
+<pre><code>$&gt; cd awesome-store-server
 </code></pre>
 <ol start="2">
 <li>Install required dependencies by running the following command</li>
@@ -421,7 +421,7 @@ blockquote {
 <p><strong>Note</strong>:</p>
 <ul>
 <li>$&gt; is the command prompt. DO NOT type it out!</li>
-<li>The server can also be started in authenticated mode. In this mode, an authentication token must first be obtained by POSTing to the https://store-server.herokuapp.com/login API, the following object.</li>
+<li>The server can also be started in authenticated mode. In this mode, an authentication token must first be obtained by POSTing to the https://awesome-store-server.herokuapp.com/login API, the following object.</li>
 </ul>
 <pre><code>{
     &quot;email&quot;: &quot;john.doe@example.com&quot;,
@@ -432,25 +432,25 @@ blockquote {
 <hr>
 <h2>API Documentation</h2>
 <h2>Products - View all</h2>
-<pre><code>GET https://store-server.herokuapp.com/products
+<pre><code>GET https://awesome-store-server.herokuapp.com/products
 </code></pre>
 <h2>Products - View a page (with maximum 10 entries)</h2>
-<pre><code>GET https://store-server.herokuapp.com/products?_page=&lt;page_id&gt;
+<pre><code>GET https://awesome-store-server.herokuapp.com/products?_page=&lt;page_id&gt;
 </code></pre>
 <p>For example, to view the second page</p>
-<pre><code>GET https://store-server.herokuapp.com/products?_page=2
+<pre><code>GET https://awesome-store-server.herokuapp.com/products?_page=2
 </code></pre>
 <h2>Products - View reviews for a product</h2>
-<pre><code>GET https://store-server.herokuapp.com/products/&lt;product_id&gt;/reviews
+<pre><code>GET https://awesome-store-server.herokuapp.com/products/&lt;product_id&gt;/reviews
 </code></pre>
 <p>For example, to view reviews of product with id = 2</p>
-<pre><code>GET https://store-server.herokuapp.com/products/2/reviews
+<pre><code>GET https://awesome-store-server.herokuapp.com/products/2/reviews
 </code></pre>
 <h2>Reviews - View all reviews</h2>
-<pre><code>GET https://store-server.herokuapp.com/reviews
+<pre><code>GET https://awesome-store-server.herokuapp.com/reviews
 </code></pre>
 <h2>Add a new product</h2>
-<pre><code>POST https://store-server.herokuapp.com/products
+<pre><code>POST https://awesome-store-server.herokuapp.com/products
 </code></pre>
 <p>The JSON data that must be sent is shown in below sample (modify the data as per your needs). DO NOT specify the id for the product. The response will have the same object with the automatically generated id for the product.</p>
 <pre><code>{
@@ -464,7 +464,7 @@ blockquote {
 }
 </code></pre>
 <h2>Add a new review</h2>
-<pre><code>POST https://store-server.herokuapp.com/reviews
+<pre><code>POST https://awesome-store-server.herokuapp.com/reviews
 </code></pre>
 <p>The JSON data that must be sent is shown in below sample (modify the data as per your needs). Specify the productId and set it to the id of the product for which this is a review. DO NOT specify the id for the review. The response will have the same object with the automatically generated id for the review.</p>
 <pre><code>{
